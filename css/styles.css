@@ -174,7 +174,7 @@ nav {
 }
 
 .home{
-  background-image: url(../img/intro-bg.jpg);
+  background-image: url(../img/intro-bg.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -185,7 +185,7 @@ nav {
 }
 
 .home h1{
-  font-size: 3rem;
+  font-size: 4.5rem;
   color:#fff;
   text-align: center;
   text-shadow: 0 .3rem .5rem #000;
@@ -195,7 +195,7 @@ nav {
 }
 
 .home h3{
-  font-size: 1rem;
+  font-size: 2rem;
   color:#fff;
   text-align: center;
   text-shadow: 0 .3rem .5rem #000;
@@ -271,4 +271,50 @@ nav {
 .portfolio-img img:hover {
   transform: scale(1.1);
   transition: 1s;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+ 
+.about-img img {
+  width: 80%;
+  border-radius: 0.5rem;
+}
+.about-text p {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 400;
+  text-align: justify;
+}
+.information {
+  margin: 1rem 0 1.4rem;
+}
+.information .info-box {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+.information .info-box .bx {
+  font-size: 22px;
+}
+.information .info-box span {
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.heading {
+  text-align: center;
+}
+.heading h2 {
+  font-size: 30px;
+}
+ 
+.heading span {
+  font-size: var(--p-font);
+  color: black;
 }
