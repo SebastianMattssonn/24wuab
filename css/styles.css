@@ -384,3 +384,26 @@ nav {
   font-size: 1.5rem;
   display: flex;
 }
+
+.wrapper-animations { display: inline-block; }
+
+.typing-animation {
+  font-size: 5em;
+  letter-spacing: -2px;
+  font-family: monospace;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+      typing 3s steps(40),
+      cursor .4s step-end infinite alternate
+}
+
+@keyframes cursor {
+  50% {border-color: transparent }
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
