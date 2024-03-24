@@ -226,7 +226,7 @@ nav {
 }
 
 .about {
-  background-color: #ebebeb;
+  background-color: white;
 }
 
 .about-container .btn {
@@ -262,6 +262,10 @@ nav {
   color: black;
   height: 50vh;
   overflow: hidden;
+}
+
+.portfolio {
+  background-color: #ebebeb;
 }
 
 .portfolio-content {
