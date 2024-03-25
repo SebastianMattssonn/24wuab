@@ -436,3 +436,7 @@ header span {
 @keyframes typing {
   from { width: 0 }
 }
+
+html {
+  scroll-behavior: smooth;
+}
